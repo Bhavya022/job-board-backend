@@ -8,7 +8,7 @@ import swaggerUi from "swagger-ui-express";
 import swaggerSpec from "./swagger";
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use("/api", jobRoutes);
